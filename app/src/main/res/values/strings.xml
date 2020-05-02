@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Spam</string>
+    <string name="title_activity_dashboard">Spam App</string>
+
+
+    <string name="selected_item">Selected item:</string>
+        <string-array name="plumbers">
+            <item>Mohamed</item>
+            <item>Sofiane</item>
+            <item>Ahmed</item>
+            <item>Omar</item>
+            <item>Mustapha</item>
+        </string-array>
+    <string name="msg">votre msg est envoyé</string>
+    <string name="spam">un virus est detecté</string>
+
+    <string-array name="type">
+        <item>dépannage</item>
+        <item>maintenance</item>
+        <item>installation</item>
+    </string-array>
+
+</resources>

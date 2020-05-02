@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="Dashboard"
+                tools:ignore="MissingDefaultResource">
+
+    <androidx.appcompat.widget.Toolbar
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:id="@+id/dashboard_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/colorPrimaryDark"
+
+    />
+
+   <TextView
+           android:layout_width="match_parent"
+           android:layout_marginLeft="20dp"
+           android:layout_height="match_parent"
+           android:textSize="20sp"
+           android:layout_marginTop="100dp"
+          android:text="tapez votre msg de publicité"
+           android:id="@+id/rv_dashboard">
+
+
+   </TextView>
+    <EditText
+            android:textColor="#DD0606"
+
+            android:text="tapez ici"
+            android:layout_marginTop="150dp"
+            android:background="#D1CBCB"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/spam_msg"
+
+            >
+
+
+    </EditText>
+    <Button
+            android:background="#DA1111"
+            android:textColor="#fff"
+
+            android:layout_width="match_parent"
+            android:layout_marginTop="400dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_msg"
+            android:text="Send">
+
+    </Button>
+
+</RelativeLayout>
